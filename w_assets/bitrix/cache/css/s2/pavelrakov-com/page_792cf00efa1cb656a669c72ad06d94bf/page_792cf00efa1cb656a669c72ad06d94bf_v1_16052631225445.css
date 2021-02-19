@@ -1,0 +1,229 @@
+
+
+/* Start:/local/templates/pavelrakov-com/components/bitrix/news/shop_pavelrakov.com/bitrix/news.detail/.default/style.css?1580299218354*/
+.main-wrapper {
+    margin-top: -66px;
+}
+.product-single p {
+    color: #2f343b;
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.event-info--price .crossed {
+    font-weight: 700;
+    color: #ccc;
+    position: relative;
+}
+.event-subtitle {
+    font-weight: 700;
+    color: #2f343b;
+    font-size: 20px;
+    margin: 40px 0 30px;
+}
+/* End */
+
+
+/* Start:/local/templates/pavelrakov-com/components/khayr/main.comment/reviews2_pavelrakov.com/style.css?15496288064383*/
+.khayr_main_comment {
+	position:relative;
+}
+.khayr_main_comment .clear {
+	clear: both;
+}
+.khayr_main_comment .pt10 {
+	padding-top: 10px;
+}
+.khayr_main_comment .w-45 {
+	width: 100%;
+}
+.khayr_main_comment .comments {
+	border-top: 0px solid #ececec;
+	margin: 0 0 20px;
+	padding: 0 0 20px;
+}
+.khayr_main_comment .comments .stock {
+	padding: 20px 0 0;
+	position: relative;
+}
+.khayr_main_comment .comments .stock .userInfo {
+	background: url("../../../../../../local/templates/pavelrakov-com/components/khayr/main.comment/reviews2_pavelrakov.com/img/comment_bg.png") no-repeat 30px 100%;
+	float: left;
+	height: 41px;
+	color: #fff;
+	font: normal 18px/13px 'bebas', sans-serif;
+}
+.khayr_main_comment .comments .stock .userInfo span {
+	background: #a88a37;
+	display: block;
+	padding: 10px 14px;
+}
+.khayr_main_comment .comments .stock .userText {
+	clear: both;
+	margin: 0 0 15px;
+	padding: 15px 0 0;
+}
+.khayr_main_comment .comments .stock .userText img:not([alt=CAPTCHA]) {
+	float: left;
+	max-width: 50px;
+	max-height: 50px;
+	padding: 0 10px 10px 0;
+}
+.khayr_main_comment .comments .stock .userText a {
+	display: inline-block;
+	margin: 10px 0 0;
+}
+.khayr_main_comment .comments .stock .userText .action {
+	clear: both;
+}
+.khayr_main_comment .comments .stock .stock {
+	margin-left: 40px;
+}
+.khayr_main_comment .comments .stock .stock .stock {
+	margin-left: 80px;
+}
+.khayr_main_comment .form {
+	border: 1px dashed #aeafb0;
+	margin-top: 15px;
+	padding: 4px;
+}
+.khayr_main_comment .form form {
+	background: #fff;
+	display: block;
+	padding: 30px 40px;
+}
+.khayr_main_comment .form.comment input[type="submit"] {
+	margin: 0;
+	margin-bottom: 20px;
+	display: block;
+	width: auto;
+}
+.khayr_main_comment form input,
+.khayr_main_comment form select,
+.khayr_main_comment form textarea,
+.khayr_main_comment textarea {
+	padding: 4px 6px;
+	border: 1px solid #aeafb0;
+	font-family: Verdana, sans-serif;
+	margin: 5px 0 5px;
+	font-size: 14px;
+	line-height: 16px;
+}
+.khayr_main_comment form textarea {
+	display: block;
+	margin: 0 0 20px;
+	width: 100%;
+}
+.khayr_main_comment form input[type="text"],
+.khayr_main_comment form input[type="password"] {
+	height: 27px;
+	line-height: 27px;
+	padding: 0 6px;
+	font-family: Verdana, sans-serif;
+}
+.khayr_main_comment form input[type="checkbox"],
+.khayr_main_comment form input[type="radio"] {
+	border: none;
+}
+.khayr_main_comment form label {
+	margin: 0 5px 0 0;
+	cursor: pointer;
+}
+.khayr_main_comment form label * {
+	vertical-align: middle;
+}
+.khayr_main_comment form label input {
+	margin: 0 2px 0 0;
+}
+.khayr_main_comment form input[type="submit"],
+.khayr_main_comment form button,
+.khayr_main_comment button,
+.khayr_main_comment a.button,
+.khayr_main_comment a.button:visited {
+	text-transform: uppercase;
+    box-shadow: 0 2px 1px #b30059;
+    border-radius: 25px;
+	background: #ff007e;
+	color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+	line-height: 1.5;
+    text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 25px;
+	cursor: pointer;
+	border: none;
+	display: block;
+	text-align: center;
+	margin: 0 auto 10px;
+}
+.khayr_main_comment a.button {
+	max-width: 120px;
+}
+.khayr_main_comment form button,
+.khayr_main_comment button,
+.khayr_main_comment a.button,
+.khayr_main_comment a.button:visited {
+	font-size: 14px;
+	line-height: 28px;
+	margin: 0 10px;
+	padding: 0 30px;
+}
+.khayr_main_comment form input[type="submit"]:hover,
+.khayr_main_comment form button:hover,
+.khayr_main_comment button:hover,
+.khayr_main_comment a.button:hover {
+	background-image:linear-gradient(to top,#cf2f7f 0,#ff007e 100%)
+}
+/*.khayr_main_comment .close {
+	float: right;
+	margin-right: 10px;
+	margin-top: 9px;
+	background:url('../../../../../../local/templates/pavelrakov-com/components/khayr/main.comment/reviews2_pavelrakov.com/img/delete.gif') no-repeat 0 0;
+	width:16px;
+	height:16px;
+}*/
+.khayr_main_comment .form_for {
+	display:none;
+}
+.khayr_main_comment .comments .stock .userText .rating-vote span.rating-vote-result,
+.khayr_main_comment .comments .stock .userText .rating-vote a {
+	margin: 0;
+}
+.khayr_main_comment_suc_exp {
+	position: fixed;
+	height: 30px;
+	width: 100%;
+	background: #0B690B;
+	color: #FFF;
+	font-weight: bold;
+	padding: 10px;
+	z-index: 2000;
+	text-align: center;
+	border-bottom: 1px solid #FFF;
+	cursor:pointer;
+	display:none;
+}
+.khayr_main_comment_err_exp {
+	display:none;
+	cursor:pointer;
+	position: fixed;
+	height: 30px;
+	width: 100%;
+	background: #690B0B;
+	color: #FFF;
+	font-weight: bold;
+	padding: 10px;
+	z-index: 2000;
+	text-align: center;
+	border-bottom: 1px solid #FFF;
+}
+.action a {
+	color: #2b8cd5;
+}
+.action a:hover {
+	color: #ff007e;
+}
+/* End */
+/* /local/templates/pavelrakov-com/components/bitrix/news/shop_pavelrakov.com/bitrix/news.detail/.default/style.css?1580299218354 */
+/* /local/templates/pavelrakov-com/components/khayr/main.comment/reviews2_pavelrakov.com/style.css?15496288064383 */

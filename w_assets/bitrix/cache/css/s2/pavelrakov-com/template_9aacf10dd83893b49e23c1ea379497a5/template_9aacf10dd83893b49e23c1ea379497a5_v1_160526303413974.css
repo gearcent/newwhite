@@ -1,0 +1,372 @@
+
+
+/* Start:/local/templates/pavelrakov-com/template_styles.css?160028623913808*/
+.__push-request-body {
+width:100%!important;
+min-height:100%!important;
+background-color: rgba(0,0,0,0.5)!important;
+overflow:hidden!important;
+position:fixed!important;
+top:0px!important;
+left:0px!important;
+z-index: 100000000000000000000000000000000000!important;
+display: flex;
+}
+.__push-request-body .__comeback-popover .__comeback-prompt-buttons{
+display: flex!important;
+flex-wrap: wrap!important;
+justify-content: flex-start;
+}
+.__push-request-body .__comeback-popover .__comeback-prompt-btn {
+display: flex!important;
+flex-direction: row!important;
+justify-content: center!important;
+align-items: center!important;
+flex-wrap: nowrap!important;
+transition: all .3s linear!important;
+cursor: pointer!important;
+padding: 13px 25px!important;
+border-radius: 4px!important;
+background-color: #ff007e!important;
+color: #fff!important;
+font-size: 17px!important;
+font-weight: 600!important;
+text-transform: uppercase!important;
+border: none!important;
+outline: 0;
+margin-top: 10px;
+}
+.__push-request-body .__comeback-popover .__comeback-accept-btn {
+margin-right: 10px
+}
+.__push-request-body .__comeback-popover .__comeback-disallow-btn{
+background: transparent!important;
+border-style: solid!important;
+border-width: 3px!important;
+border-color: #4B4F57!important;
+color:#4B4F57!important;
+}
+.__push-request-body .__comeback-popover .__comeback-accept-btn:hover {
+background-color: #4B4F57!important;
+}
+.__push-request-body .__comeback-popover .__comeback-disallow-btn:hover {
+color: #fff!important;
+border-color: #fff!important;
+}
+.__push-request-body .__comeback-prompt-btn:active {
+opacity: 0.5;
+}
+.__push-request-body .__comeback-prompt-message {
+background-color: transparent!important;
+padding: 53px 70px 70px 70px!important;
+border-style: solid!important;
+border-width: 10px!important;
+-o-border-image: url(../../../../../../img/border.png) 10 10 10 10 stretch!important;
+border-image: url(../../../../../../img/border.png) 10 10 10 10 stretch!important;
+margin: 0 30px!important;
+max-width: 2000px!important;
+}
+.__push-request-body .__comeback-prompt-message-text{
+font-family: "Playfair Display"!important;
+font-weight: 700!important;
+color: #fff!important;
+font-size: 30px!important;
+line-height: 30px!important;
+}
+.__push-request-body .__comeback-prompt-message-text.__comeback-prompt-info{
+color: #95989c!important;
+font-size: 12px!important;
+text-transform: uppercase!important;
+letter-spacing: .4px!important;
+margin-bottom: 30px!important;
+}
+.__push-request-body .__comeback-bell-icon{
+color: #95989c!important;
+filter: invert(1) brightness(0.5);
+}
+.__push-request-body .__comeback-prompt.__comeback-popover {
+border: none!important;
+margin: auto!important;
+position: static!important;
+background: #1b1e24 center center no-repeat!important;
+background-size: 100% 100%!important;
+padding: 30px 0!important;
+width: 80%!important;
+max-width: 100000px;
+}
+@media screen and (max-width: 760px){
+	.__push-request-body .__comeback-prompt-message {
+	padding: 15px 20px 20px 20px !important;
+	margin: 0 15px;
+	}
+	.__push-request-body .__comeback-prompt.__comeback-popover {
+	width: 100%!important;
+	overflow: auto;
+	max-height: 100vh;
+	}
+	.__push-request-body .__comeback-prompt-message-text{
+	font-size: 18px!important;
+	line-height: 18px!important;
+	}
+	.__push-request-body .__comeback-prompt-message-text.__comeback-prompt-info{
+	color: #95989c!important;
+	font-size: 10px!important;
+	text-transform: uppercase!important;
+	letter-spacing: .4px!important;
+	margin-bottom: 20px!important;
+	}
+	.__push-request-body .__comeback-popover .__comeback-prompt-btn {
+	display: flex!important;
+	flex-direction: row!important;
+	justify-content: center!important;
+	align-items: center!important;
+	flex-wrap: nowrap!important;
+	transition: all .3s linear!important;
+	cursor: pointer!important;
+	padding: 10px 15px!important;
+	border-radius: 4px!important;
+	color: #fff!important;
+	font-size: 13px!important;
+	font-weight: 600!important;
+	text-transform: uppercase!important;
+	border: none!important;
+	outline: 0;
+	margin-top: 10px;
+	width: 100%;
+	margin-right: 0;
+	}
+}
+
+.main-content #form .input {width: auto}
+.main-content #form label:nth-child(5) {float: left}
+.main-content #form label:nth-child(5) img {margin-right: 20px}
+
+.wide-content.questions.fullwidth {
+	padding: 50px 20px;
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 1;
+	-ms-grid-columns: 100%;
+	grid-template-columns: 100%;
+	grid-gap: 40px;	
+}
+.wide-content.questions.fullwidth .contacts-form__block {
+padding-top: 0;
+display: -ms-grid;
+display: grid;
+-ms-grid-rows: auto;
+grid-template-rows: auto;
+-ms-grid-columns: (minmax(40%, 50%))[2];
+grid-template-columns: repeat(2, minmax(40%, 50%));
+grid-gap: 15px;
+align-items: center;	
+}
+.wide-content.questions.fullwidth .contacts-form__block .input {width: 100%; grid-template-rows: auto}
+.wide-content.questions.fullwidth .contacts-form__block .textarea {
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 2;
+	grid-column: 1/3; }
+.wide-content.questions.fullwidth .contacts-form__block .send-button {
+	width: 260px;
+	margin-bottom: 0;	
+}	
+
+#showmore {
+	cursor:pointer;
+	}
+
+.banner__content a.button-colored.endevent{
+	background: none; width: 240px !important; color: #fff; border: 2px solid #fff; box-shadow: none !important }	
+.button-colored.endevent {background: none; border:2px solid #d0d0d0; color: #ff007e; box-shadow: none !important }	
+.banner__content a.button-colored.endevent:hover {border-color: rgba(255,255,255, 1)}
+a.soonevent {width: 240px !important; margin: -50px 0 0 280px !important}
+.timer-widget .subtitle {text-align: center; padding: 30px 0 30px 0; }
+.event_end p {text-transform: uppercase; font-size: 13px; font-weight: bold; padding:  20px 0 10px 0}
+.comment .comment-body .comment--text.comment--text.opened {padding: 0px}
+.blog-author a span.rakov_last_name {font-weight: 600 !important; font-family: "Playfair Display", sans-serif, Tahoma, Arial !important; margin-left: 5px; font-size: 21px;}
+
+.author-widget .author-block .author-block__img img {width: 85px; height: 85px; border-radius: 85px}
+p.author-block--text.interview {font-size: 16px !important; color: #000 !important; padding-top: 30px; line-height: 24px !important}
+
+div.album_overs {
+	display: flex; 
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.aside .share-block {
+	margin-top: 0px !important
+}
+
+.lead3 .gift {background-repeat: repeat}
+.searchresult, .searchtext, .searchlink, .searchitem small, a.searchcat, .search a {font-family: "Source Sans Pro", sans-serif, Tahoma, Arial !important;}
+.searchresult .searchlink {color: #009cff; font-size: 18px; border-bottom: 1px solid #009cff; line-height: 24px}
+.searchresult .searchlink:hover {color: #009cff; text-decoration: none; border-bottom: 0px}
+.searchtext {line-height: 22px}
+
+/* 404 стили */
+.banner_tot {height: 570px; background: url(../../../../../../img/girl_desktop.jpg) no-repeat center top; background-size: cover; font-size: 46px; color: #1b1e24; }
+.banner_tot .container {font-family: "Playfair Display" !important; padding-top: 70px; line-height: 48px; }
+.banner_tot .container p {max-width: 490px}
+.content404 {margin-top: -300px; height: 300px}
+.content404 h1 {font-size: 34px; color: #2f343b; font-family: "Source Sans Pro", sans-serif, Tahoma, Arial !important; margin-bottom: 40px}
+.content404 .leftside {width: 33%; display: inline-block; vertical-align: top}
+.content404 .rightside {width: 66%; display: inline-block; vertical-align: top; float: right}
+.content404 .interesting-wide {padding: 32px 40px 0px 40px !important}
+.content404 .specialforyou {margin: 20px 0; padding: 40px; background: #fff; border-radius: 6px}
+.content404 .specialforyou h2 {font-size: 34px; color: #2f343b; margin-bottom: 25px; font-family: "Playfair Display"; }
+.content404 .specialforyou p {font-size: 21px; color: #2f343b; margin-bottom: 30px; font-weight: bold; line-height: 24px}
+
+.blok404 .banner_tot .container, .content404 {max-width: 900px} 
+.blok404 .breadcrumbs {display: none}
+.blok404 .category {padding-bottom: 0px}
+.blok404 .category a {display: block; margin-bottom: 15px; font-size: 18px; color: #444; text-decoration: underline}
+.blok404 .category a:hover {text-decoration: none}
+
+.pic_mobile {display: none}
+
+@media screen and (min-width:1169px) {
+.mir-mob {display: none;}
+.mir {display: flex; margin-top: 30px; margin-bottom: -25px; background: #fff; height: 80px; padding-right: 20px;}
+.mir-logo {width: 11%;}
+.mir-logo img {margin-top: -10px;}
+.mir-title {width: 25%; margin: auto; font-weight: bold;}
+.mir-title span.first {padding-left: 12px; padding-bottom: 5px;}
+.mir-title span.second {font-size: 24px;}
+.mir-info {width: 45%; margin: auto; line-height: 1.2; font-size: 17px;}
+.mir-psw {width: 15%; margin: auto; border: 2px solid #ff007e; border-radius: 5px; padding: 10px; text-align: center;}
+.mir-psw a {color: #000; font-weight: bold;}
+}
+
+@media (max-width: 1169px) {
+	.container.has_aside { 
+		display: block
+	}
+	.timer-widget {padding-top: 10px !important}
+	.calendar-button {margin-bottom: 0px !important}
+	.support-widget .support-widget--lock  {margin-top: 20px}
+	.about__info .about__info--text .title.small {margin-bottom: 0px !important}
+	.lead3 {margin-left: -20px; width: calc(100% + 40px)}
+	.container.has_aside.has-author.article .main-content {padding-top: 210px !important;}
+	.content404 .leftside {width: 100%; }
+	.content404 .rightside {width: 100%; float: none}
+	.content404 .specialforyou	 {margin: -38px 0 20px 0}
+}
+
+@media screen and (max-width:1168px) {
+.mir {display: none;}
+.mir-mob {display:flex; margin-top: 30px; background: #fff; height: auto; padding: 20px;}
+.mir-block {width: 70%;}
+.mir-logo {float: left;}
+.mir-logo img {height: 75px;}
+.mir-content {float: right; padding-left: 20px; width: 87%;}
+.mir-title {font-weight: bold;}
+.mir-title span.first {padding-left: 12px; padding-bottom: 5px;}
+.mir-title span.second {font-size: 24px;}
+.mir-info {margin: auto; line-height: 1.2; font-size: 17px;}
+.mir-psw {width: 20%; margin: auto; border: 2px solid #ff007e; border-radius: 5px; padding: 10px; text-align: center;}
+.mir-psw a {color: #000; font-weight: bold;}
+.aside .share-block {position: relative; top: -700px; left: 30px; max-width: 90%;}
+
+}
+@media screen and (max-width:800px) {
+.mir-mob {display: block;}
+.mir-content {float: left;}
+.mir-logo {float: right;}
+.mir-logo img {height: 60px;}
+.mir-content {all: unset;}
+.mir-info {margin-top: 20px;}
+.mir-psw {width: 100%; margin-top: 20px;}
+.calendar-button {margin-bottom: 20px !important}
+}
+@media screen and (max-width:767px) {
+
+	.banner.event-banner .banner__content .banner__info .info-marker:first-of-type {
+		bottom: 0px !important
+	}
+
+	.timer-widget .subtitle {
+		padding: 0 !important;
+		margin-bottom: 20px
+	}
+	.timer-widget .calendar-button {
+		margin-bottom: 15px
+	}
+	.timer-widget {
+		padding-bottom: 50px;
+	}
+	#my-soon-counter {
+		margin-top: 0px !important
+	}
+	.aside .share-block {top: -590px;}
+	.banner_tot {height: 535px; background-image: url(../../../../../../img/girl_tablet.jpg); font-size: 36px; padding-left: 20px}
+	.banner_tot .container p {max-width: 380px; line-height: 36px}
+	.content404 .specialforyou h2 {font-size: 30px; }
+	.content404 .specialforyou p {font-size: 19px; font-weight: 400}
+}
+
+@media screen and (max-width:600px) {
+	a.soonevent {width: 240px !important; margin: 30px 0 0 0px !important }
+	#my-soon-counter {padding-bottom: 5%}
+	.calendar-button {margin-bottom: -10px !important}
+	.timer-widget {
+		height: 210px
+	}
+
+	.albums-block {}	
+	.albums-block .albums--categories { overflow-y: hidden; }
+	div.album_overs {
+		width: 3000px; 
+		overflow-x: scroll; 
+		display: flex; 
+		flex-direction: inherit;
+		justify-content:inherit ;
+		align-items: inherit;
+		flex-wrap: initial;
+	}	
+	.pic_desctop {display: none}
+	.pic_mobile {display: block; width: 100%}
+}
+@media screen and (max-width:500px) {
+	.aside .share-block {top: -595px;}
+	.banner_tot {height: 535px; background-image: url(../../../../../../img/girl_mobile.jpg); font-size: 30px; padding: 20px; color: #fff; }
+	.banner_tot .container {padding-top: 382px !important; line-height: 30px}	
+	.content404 {margin-top: 40px }
+	.content404 .specialforyou h2 {font-size: 23px; }
+	.content404 .specialforyou p {font-size: 17px; font-weight: 400; }
+	.banner_tot .container p {line-height: 28px}
+
+	.offcanvas__widgets {display: none}
+}
+@media screen and (max-width:420px) {
+	.programa:after {display: none}
+	.programa ul {padding-left: 40px}
+	.lead3 .gift {margin-left: 22px; padding-left: 10px}
+	.lead3 .l_title0 {padding: 25px 0 10px 20px}
+	.aside .share-block {top: -600px;}
+}
+@media screen and (max-width:375px) {
+	.aside .share-block {top: -640px;}
+}
+@media screen and (max-width:320px) {
+	.aside .share-block {top: -650px; left: 20px}
+	.banner_tot .container p {line-height: 25px; font-size: 25px}
+}
+
+@media screen and (min-width: 770px) {
+	.follow-button.follow-button--zen {
+		display: block !important		
+	}	
+}
+
+
+#newsNoticeTopBanner2 {background: #ff007e; position: fixed;top: 0px;z-index: 111;width: 100%;}
+#newsNoticeTopBanner2 .container {padding: 12px 20px 12px;}
+#newsNoticeTopBanner2 .container p {padding: 0;font-weight: 400; color: #fff}
+#newsNoticeTopBanner2 a {color: #fff; border-bottom: 1px solid #fff}
+#newsNoticeTopBanner2 a.newsNoticeClose {display: inline-block; float: right; border-bottom: 0px}
+#newsNoticeTopBanner2 .icon-cross {color: #fff;transition: color .3s linear;width: 10px;height: 10px;}
+.contacts-faq__item--text a {color: #ff007e}
+
+/* End */
+/* /local/templates/pavelrakov-com/template_styles.css?160028623913808 */
